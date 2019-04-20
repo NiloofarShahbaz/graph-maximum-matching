@@ -6,7 +6,7 @@ class FindMaximumMatching:
         self.graph = graph
         self.saturated_vertices = []
         self.seperated_graphs = []
-        self.matching = [(1, 6)]
+        self.matching = {(1, 6)}
 
     def run(self):
         # augmenting_path = self.find_augmenting_path()
@@ -22,7 +22,7 @@ class FindMaximumMatching:
         m = len(self.matching)
         # if we have no matching choose a random edge to start width
         if m is 0:
-            path = [random.choice(self.graph.edges)]
+            path = {random.choice(self.graph.edges)}
             return path
         path = deepcopy(self.matching)
 
