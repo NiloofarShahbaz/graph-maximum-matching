@@ -1,0 +1,13 @@
+cycler==0.10.0
+decorator==4.4.0
+imageio==2.5.0
+kiwisolver==1.1.0
+matplotlib==3.0.3
+networkx==2.3
+numpy==1.16.3
+opencv-contrib-python==4.1.0.25
+Pillow==6.0.0
+pyparsing==2.4.0
+python-dateutil==2.8.0
+python-igraph==0.7.1.post6
+six==1.12.0
